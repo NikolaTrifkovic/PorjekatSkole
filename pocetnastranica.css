@@ -2,47 +2,23 @@
     padding: 0;
     margin: 0;
 }
+body {
+    background-image: url(slikazapozadinu3.jpg);
+    margin-right: 70px; 
+}
 #wrapp1 {
-    width: 1209px;
-    border: 3px solid black;
-    border-radius: 0px;
-    margin-left: 40px;
-    height: 520px;
-    
+    text-align: center;
+    color: aqua;
 }
-#slika1 {
-    width: 1209px;
-    height: 390px;
-    border-bottom: 3px solid black;
-}
-.slike2 {
-    width: 160px;
-    height: 128px;
-   
+#h1:active {
+    font-family: fantasy;
 }
 #wrapp2 {
-    padding: 10px;
-    width: auto;
-    background-color: black;
-    margin-left: 34px;
-    margin-right: 26px;
-}
-#hprvi {
-  color: white;
-    text-align: center;
-
-}
-#wrapp3 {
-    
-}
-
-
-#wrapp4 {
     width: 1209px;
-    background-color: black;
-    margin-left: 40px;
+    background-color: royalblue;
+    margin-left: 72px;
     height: 40px;
-    border-radius: 30px;
+    border-radius: 20px;
     padding-bottom: 13px;
 }
 .prvalista {
@@ -52,7 +28,7 @@
     font-size: 18px;
   }
 #prvaul .prvalista:hover {
-    background-color: red;
+    background-color: goldenrod;
     height: 100%;
 }
 #prvaul .prvalista:active {
