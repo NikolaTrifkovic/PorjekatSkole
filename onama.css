@@ -95,12 +95,10 @@ body {
     width: 800px;
     margin-left: 75px;
     height: 1308px;
-    border: 3px solid black;
-    border-radius: 30px;
-    margin-top: -583px;
-    border-bottom: 0;
-    border-top: 0;
+    background-color: #414045;
+    margin-top: 33px;
     padding: 8px;
+    opacity: 0.9;
 }
 #h2 {
     text-align: center;
@@ -114,6 +112,82 @@ body {
 #p1 {
     font-size: 20px;
     color: brown;
+}
+.slider-frame {
+    background-color: #414045;
+    overflow: hidden;
+    height: 250px;
+    width: 100%;
+    margin-left: 65px;
+    margin-top: 60px;
+}
+@-webkit-keyframes slide_animation {
+     0% {left:100px;}
+     10% {left:0px;}
+     20% {left:1200px;}
+     30% {left:1200px;}
+     40% {left:2400px;}
+     50% {left:2400px;}
+     60% {left:1200px;}
+     70% {left:1200px;}
+     80% {left:0px;}
+     90% {left:0px;}
+     100% {left:0px;}
+}
+.slide-images {
+    width: 5800px;
+    height: 5800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+.img-container {
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+.slider-frame2 {
+    background-color: #414045;
+    overflow: hidden;
+    height: 250px;
+    width: 100%;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+@-webkit-keyframes slide_animation {
+     0% {left:100px;}
+     10% {left:0px;}
+     20% {left:1200px;}
+     30% {left:1200px;}
+     40% {left:2400px;}
+     50% {left:2400px;}
+     60% {left:1200px;}
+     70% {left:1200px;}
+     80% {left:0px;}
+     90% {left:0px;}
+     100% {left:0px;}
+}
+.slide-images2 {
+    width: 5800px;
+    height: 5800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+.img-container2 {
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
 }
 #wrappzadnji {
     width: 100%;
@@ -129,5 +203,4 @@ body {
     color: whitesmoke;
     font-size: 20px;
     padding-top: 60px;
-    
 }
