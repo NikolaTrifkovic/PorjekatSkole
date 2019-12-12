@@ -91,13 +91,32 @@ body {
     font-size: 22px;
     margin-left: 1069px;
 }
+#wrappslike {
+    width: 760px;
+    height: 1570px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: #414045;
+    opacity: 0.9;
+}
+#hslike {
+    text-align: center;
+    font-size: 23px;
+    padding-top: 10px;
+    color: red;
+}
+.slikeg {
+    width: 230px;
+    height: 230px;
+    margin: 10px;
+}
 .slider-frame {
     background-color: #414045;
     overflow: hidden;
     height: 250px;
     width: 100%;
     margin-left: 65px;
-    margin-top: 650px;
+    margin-top: 100px;
 }
 @-webkit-keyframes slide_animation {
      0% {left:100px;}
